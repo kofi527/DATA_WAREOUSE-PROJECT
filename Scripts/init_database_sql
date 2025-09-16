@@ -1,7 +1,7 @@
-Script Purpose; 
+**Script Purpose;** 
 	 This script crates a new database named ‘DataWarehouse’ after checking if it already exits. If the database exist, it is dropped and recreated. Additionally, the script sets up three schemas within the database;  ‘bronze’ ‘silver’ and ‘gold’
 
-WARNING;
+**WARNING;**
 Running this scipt will drop the entire ‘DataWareouse’ database if it exists. All data in the database will be permanently deleted. Proceed with caution and ensure you have proper backups before running this scipt
 
 
