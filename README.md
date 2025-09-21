@@ -12,3 +12,6 @@ PROJECT DESIGN FOR BRONZE STAGE IN SSMS
    
    <img width="881" height="341" alt="D7 First table created in SSMS" src="https://github.com/user-attachments/assets/909e614f-f3c6-4489-998f-d9b78f791bce" />
 
+3. DDL's have been fully created with poper naming conventions for the various tables
+   
+   <img width="712" height="205" alt="D8 DDL AND TABLES HAVE BEEN CREATED WITH PROPER NAMING CONVENTIONS" src="https://github.com/user-attachments/assets/fc55dbda-489e-4d40-b71e-89ce0e9fe6c5" />
