@@ -15,3 +15,18 @@ PROJECT DESIGN FOR BRONZE STAGE IN SSMS
 3. DDL's have been fully created with poper naming conventions for the various tables
    
    <img width="712" height="205" alt="D8 DDL AND TABLES HAVE BEEN CREATED WITH PROPER NAMING CONVENTIONS" src="https://github.com/user-attachments/assets/fc55dbda-489e-4d40-b71e-89ce0e9fe6c5" />
+
+4. Writing T SQL QUERY TO DROP AND RECREATE TABLE
+   IF OBJECT_ID ('bronze.crm_cust_info' , 'U') IS NOT NULL
+	DROP TABLE bronze.crm_cust_info;
+
+Explanation : OBJECT_ID('bronze.erp_pz_cat_g1v2', 'U')
+Returns the object ID of the table if it exists.
+
+'U' specifies user tables (so it checks specifically for tables, not views, procedures, etc.).
+
+IS NOT NULL
+Means the table exists (because a valid object ID was found).
+
+DROP TABLE bronze.erp_pz_cat_g1v2;
+Removes the table if it exists.
