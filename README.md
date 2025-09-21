@@ -8,3 +8,7 @@ PROJECT DESIGN FOR BRONZE STAGE IN SSMS
 1. Creating the database and schemas
    <img width="1219" height="458" alt="d6 creating the database and schemas" src="https://github.com/user-attachments/assets/abc82bed-9068-4595-a958-90d8876de39c" />
 
+2. Firts table created in datawarehouse from the source folder
+   
+   <img width="881" height="341" alt="D7 First table created in SSMS" src="https://github.com/user-attachments/assets/909e614f-f3c6-4489-998f-d9b78f791bce" />
+
