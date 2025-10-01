@@ -30,3 +30,13 @@ Means the table exists (because a valid object ID was found).
 
 DROP TABLE bronze.erp_pz_cat_g1v2;
 Removes the table if it exists.
+
+5. The structure of the WHERE clause
+The WHERE clause is made up of one or more search conditions, each of which must evaluate to TRUE, FALSE, or 'unknown' for each row of the table. Rows will only be returned when the WHERE clause evaluates as TRUE. The individual conditions act as filters on the data, and are referred to as 'predicates'. Each predicate includes a condition that is being tested, usually using the basic comparison operators:
+
+= (equals)
+<> (not equals)
+> (greater than)
+>= (greater than or equal to)
+< (less than)
+<= (less than or equal to)
